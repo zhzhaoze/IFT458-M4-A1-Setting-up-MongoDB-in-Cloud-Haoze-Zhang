@@ -1,6 +1,7 @@
 //Create schema
 //Student Name: Haoze Zhang
 //Student Id: 1223015872
+//Time: 2022.10.5
 // this.rawData404 = new JSONSchemaView(this.obj);
 import mongoose from 'mongoose';
 const { Schema } = mongoose;
