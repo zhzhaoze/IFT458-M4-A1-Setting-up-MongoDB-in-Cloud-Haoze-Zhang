@@ -1,4 +1,6 @@
 //Create schema
+//Student Name: Haoze Zhang
+//Student Id: 1223015872
 // this.rawData404 = new JSONSchemaView(this.obj);
 const mongoose = require('mongoose')
 
@@ -14,8 +16,8 @@ const customerSchema = new Schema({
   loanTermYears: Number,
   loanType: String,
   description:  String,
-  // createdDate: {type: Date, default: Date.now},
-  // insertedDate: {type: Date, default: Date.now}
+  createdDate: {type: Date, default: Date.now},
+  insertedDate: {type: Date, default: Date.now}
 
 });
 
